@@ -1,0 +1,286 @@
+/* ==UserStyle==
+@name         Modern PikiDiary (Tenacity 5.0)
+@namespace    https://nomaakip.neocities.org
+@description  Modern Pikidiary (Tenacity 5.0)
+@author       nomaakip
+@version      1.2.7
+@license      GPL-3
+*/
+
+
+
+
+@-moz-document url-prefix("https://pikidiary.lol") {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==UserStyle==
+@name         Modern PikiDiary (Tenacity 5.0)
+@namespace    Modern PikiDiary
+@description   swag
+@author         nomaakip
+@license GPL-3
+==/UserStyle== */
+
+
+* {
+      font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+body, body.dark, footer,body.dark main, main{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+    
+
+
+.post-content {
+    color: #ffffff69;
+    background-color: #333 !important;
+    border-radius: 7px;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+
+}
+
+
+button {
+    border-radius: 7px;
+    border:none;
+    background-color: #535353;
+    color: #e8e8e8;
+    cursor: pointer;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+.action-button {
+    border-radius:8px;
+    border: none;
+    color:  #ffffff69;
+    background: #535353;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+.avatar {
+    border-radius: 70px;
+    box-shadow: 0px 0px 15px #f585ff;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+.avatar-small {
+    border-radius: 70px;
+    box-shadow: 0px 0px 15px #f585ff;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+.post-content >  span > .ping {
+    color: #f585ff !important; 
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+.action-button-gray {
+    background: #535353;
+    border:none;
+        margin-top:10px;
+    border-radius: 10px;
+                 animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+.post-box > form > textarea {
+    background-color: #535353;
+    color: #fff;
+    border-radius: 8px;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+.post-content >  span > a {
+    border-radius: 8px;
+    filter: blur(4px);
+    transition: all 0.5s ease;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 0.5s;
+}
+
+.post-content >  span > a:hover {
+    filter: none;
+                 animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+select {
+    background-color: #535353;
+    border-radius:8px;
+    color: #fff;
+    margin-right:5px;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+img {
+    border-radius:8px;
+    box-shadow: 0px 0px 5px #f585ff;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+img[src="/img/nikki-dark.svg"] {
+  content: url(https://raw.githubusercontent.com/Nomaakip/Nomaakip.github.io/refs/heads/main/images/es.png);
+    box-shadow: none;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+img[src="/img/nikki.svg"] {
+  content: url(https://raw.githubusercontent.com/Nomaakip/Nomaakip.github.io/refs/heads/main/images/es.png);
+    box-shadow: none;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+
+
+.beta-logo {
+    box-shadow:none;
+    display:none;
+}
+
+
+img[src="/img/icons/upload.webp"] {
+    box-shadow:none;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+.button {
+        background: #535353;
+    color: #fff;
+    border:none;
+    border-radius: 8px;
+    box-shadow:none;
+    transition: all .3s ease-in-out;
+             animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+}
+    
+    .button:hover {
+        border:none;
+        background: hsl(271, 100%, 48%);
+        color: #fff;
+    }
+    
+    input {
+        border: none;
+        color: #fff;
+        border-radius: 8px;
+        background-color: #535353;
+                 animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+    }
+    
+    
+    img[src="/img/icons/upload.webp"] {
+        box-shadow: none;
+                 animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+    }
+    
+    .emoji-button {
+        height:20px;
+        transition: all .3s ease-in-out;
+                 animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+    }
+    
+    .emoji-button:hover {
+        background: hsla(197, 100%, 63%, 1);
+
+        border:none;
+    }
+    
+    .action-button-gray:hover {
+        border:none;
+        background: hsl(356, 100%, 36%);
+    color: #fff;
+    }
+    
+    .action-button-gray {
+        transition: all .3s ease-in-out;
+         animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+    }
+    
+    @keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+}
+@-moz-document url-prefix("https://pikidiary.lol/settings"), url-prefix("https://pikidiary.lol/posts") ,url("https://pikidiary.lol/"), url-prefix("https://pikidiary.lol/@") {
+    body, body.dark, footer, main,body.dark main {
+    background: rgb(148, 187, 233);
+
+}
+}
